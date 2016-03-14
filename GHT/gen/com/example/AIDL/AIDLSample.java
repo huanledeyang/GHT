@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: E:\\Android\\GitHub\\GHT\\GHT\\src\\com\\example\\AIDL\\AIDLSample.aidl
+ * Original file: D:\\Projects\\github\\GHT\\GHT\\src\\com\\example\\AIDL\\AIDLSample.aidl
  */
 package com.example.AIDL;
 public interface AIDLSample extends android.os.IInterface
