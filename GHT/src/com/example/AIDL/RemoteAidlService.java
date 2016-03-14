@@ -1,6 +1,6 @@
-package com.example.AIDL;
+package com.example.aidl;
 
-import com.example.AIDL.AIDLSample.Stub;
+import com.example.aidl.AIDLSample.Stub;
 
 import android.app.Service;
 import android.content.Intent;

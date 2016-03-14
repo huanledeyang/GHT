@@ -1,33 +1,33 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\Projects\\github\\GHT\\GHT\\src\\com\\example\\AIDL\\AIDLSample.aidl
+ * Original file: D:\\Projects\\github\\GHT\\GHT\\src\\com\\example\\aidl\\AIDLSample.aidl
  */
-package com.example.AIDL;
+package com.example.aidl;
 public interface AIDLSample extends android.os.IInterface
 {
 /** Local-side IPC implementation stub class. */
-public static abstract class Stub extends android.os.Binder implements com.example.AIDL.AIDLSample
+public static abstract class Stub extends android.os.Binder implements com.example.aidl.AIDLSample
 {
-private static final java.lang.String DESCRIPTOR = "com.example.AIDL.AIDLSample";
+private static final java.lang.String DESCRIPTOR = "com.example.aidl.AIDLSample";
 /** Construct the stub at attach it to the interface. */
 public Stub()
 {
 this.attachInterface(this, DESCRIPTOR);
 }
 /**
- * Cast an IBinder object into an com.example.AIDL.AIDLSample interface,
+ * Cast an IBinder object into an com.example.aidl.AIDLSample interface,
  * generating a proxy if needed.
  */
-public static com.example.AIDL.AIDLSample asInterface(android.os.IBinder obj)
+public static com.example.aidl.AIDLSample asInterface(android.os.IBinder obj)
 {
 if ((obj==null)) {
 return null;
 }
 android.os.IInterface iin = obj.queryLocalInterface(DESCRIPTOR);
-if (((iin!=null)&&(iin instanceof com.example.AIDL.AIDLSample))) {
-return ((com.example.AIDL.AIDLSample)iin);
+if (((iin!=null)&&(iin instanceof com.example.aidl.AIDLSample))) {
+return ((com.example.aidl.AIDLSample)iin);
 }
-return new com.example.AIDL.AIDLSample.Stub.Proxy(obj);
+return new com.example.aidl.AIDLSample.Stub.Proxy(obj);
 }
 @Override public android.os.IBinder asBinder()
 {
@@ -55,7 +55,7 @@ return true;
 }
 return super.onTransact(code, data, reply, flags);
 }
-private static class Proxy implements com.example.AIDL.AIDLSample
+private static class Proxy implements com.example.aidl.AIDLSample
 {
 private android.os.IBinder mRemote;
 Proxy(android.os.IBinder remote)
